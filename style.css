@@ -110,7 +110,7 @@ header ul li a:hover {
 }
 
 .work {
-  background: #18181B;
+  background: white;
   padding: 2rem;
   padding-bottom: 6rem;
 }
@@ -118,7 +118,8 @@ header ul li a:hover {
 .work h1 {
   padding-top: 3rem;
   text-align: center;
-  color: white;
+  color: black;
+  font-size: 3rem;
 }
 
 .work h2 {
@@ -141,6 +142,26 @@ header ul li a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   color: white;
+  background: #141d3a;
+  padding: 2rem;
+  padding-top: 0.5rem;
+  border-radius: 1rem 0.5rem 1rem 0.7rem;
+  -webkit-box-shadow: 4px 4px 4px 4px #141d3a;
+          box-shadow: 4px 4px 4px 4px #141d3a;
+}
+
+.firstleftext {
+  margin-left: 6rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  background: #141d3a;
+  padding: 2rem;
+  padding-top: 0.5rem;
+  border-radius: 1rem 0.5rem 1rem 0.7rem;
+  -webkit-box-shadow: 4px 4px 4px 4px #141d3a;
+          box-shadow: 4px 4px 4px 4px #141d3a;
 }
 
 .firstrightext p {
@@ -156,8 +177,16 @@ header ul li a:hover {
 }
 
 .middle {
+  background: #141d3a;
+  width: 28rem;
+  padding: 2rem;
   text-align: center;
-  padding-top: 3rem;
+  padding-top: 0.5rem;
+  border-radius: 1rem 0.5rem 1rem 0.7rem;
+  -webkit-box-shadow: 4px 4px 4px 4px #141d3a;
+          box-shadow: 4px 4px 4px 4px #141d3a;
+  margin: auto;
+  margin-top: 4rem;
 }
 
 .middle h2 {
@@ -166,7 +195,25 @@ header ul li a:hover {
 
 .middle p {
   color: #cccccc;
-  width: 35rem;
+  width: 25rem;
   margin: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  header nav ul {
+    position: absolute;
+    display: block;
+    width: 100%;
+    display: none;
+    top: 0;
+    line-height: 4rem;
+    background: #141d3a;
+    left: 0;
+  }
+  .loginbtn {
+    background: white;
+    padding: 0.4rem;
+    padding-bottom: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
